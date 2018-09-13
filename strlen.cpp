@@ -1,30 +1,16 @@
+
 #include <stdio.h>
 #include <string.h>
 int main(){
 
-    char a[100];
+    char nabeel[200];
     
-        printf("Enter word or anything your want after the program show lenght = ");
-    	gets(a);   
-     printf("Your word/sentences length is= %d", strlen(a));
-     
-  return 0;
+  printf("Enter Any your name \n After That Program show your name lenght= ");
+        	gets(nabeel);
+     		
+    	printf("Length of pra = %d", strlen(nabeel));
+    	
+return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
